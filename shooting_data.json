@@ -1,0 +1,66 @@
+[
+  {
+    "series": [
+      {
+        "seven_or_less": 0,
+        "eights": 2,
+        "nines": 8,
+        "tens": 0
+      },
+      {
+        "seven_or_less": 0,
+        "eights": 1,
+        "nines": 8,
+        "tens": 1
+      }
+    ],
+    "date": "2026-03-03 16:44:15",
+    "location": "Range"
+  },
+  {
+    "series": [
+      {
+        "seven_or_less": 0,
+        "eights": 2,
+        "nines": 7,
+        "tens": 1
+      }
+    ],
+    "date": "2026-03-03 16:46:15",
+    "location": "Range"
+  },
+  {
+    "series": [
+      {
+        "seven_or_less": 0,
+        "eights": 0,
+        "nines": 4,
+        "tens": 6
+      },
+      {
+        "seven_or_less": 0,
+        "eights": 0,
+        "nines": 8,
+        "tens": 2
+      }
+    ],
+    "date": "2026-03-03 17:12:31"
+  },
+  {
+    "series": [
+      {
+        "seven_or_less": 0,
+        "eights": 0,
+        "nines": 2,
+        "tens": 8
+      },
+      {
+        "seven_or_less": 0,
+        "eights": 1,
+        "nines": 9,
+        "tens": 0
+      }
+    ],
+    "date": "2026-03-03 17:18:20"
+  }
+]

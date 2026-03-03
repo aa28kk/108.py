@@ -1,0 +1,24 @@
+[
+  {
+    "series": [
+      {
+        "seven_or_less": 0,
+        "eights": 1,
+        "nines": 8,
+        "tens": 1
+      }
+    ],
+    "date": "2026-03-03 17:07:47"
+  },
+  {
+    "series": [
+      {
+        "seven_or_less": 0,
+        "eights": 0,
+        "nines": 4,
+        "tens": 6
+      }
+    ],
+    "date": "2026-03-03 17:07:47"
+  }
+]

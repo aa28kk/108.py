@@ -1,0 +1,155 @@
+{
+  "application": {
+    "name": "Pistol Shooting Performance Analyzer",
+    "version": "1.0.0",
+    "author": "Shooting Analytics Team",
+    "description": "Complete shooting performance tracking and analysis system"
+  },
+  
+  "scoring": {
+    "perfect_shot": {
+      "value": 10,
+      "description": "Perfect shot - bullseye or center mass"
+    },
+    "good_shot": {
+      "value": 9,
+      "description": "Good shot - slightly off center"
+    },
+    "bad_shot": {
+      "value": 8,
+      "description": "Bad shot - significantly off target"
+    },
+    "shots_per_session": 10
+  },
+  
+  "rating_thresholds": {
+    "excellent": {
+      "min": 9.5,
+      "max": 10.0,
+      "emoji": "🟢",
+      "description": "Excellent performance"
+    },
+    "very_good": {
+      "min": 9.0,
+      "max": 9.4,
+      "emoji": "🟢",
+      "description": "Very good performance"
+    },
+    "good": {
+      "min": 8.5,
+      "max": 8.9,
+      "emoji": "🟡",
+      "description": "Good performance"
+    },
+    "fair": {
+      "min": 8.0,
+      "max": 8.4,
+      "emoji": "🟡",
+      "description": "Fair performance"
+    },
+    "needs_improvement": {
+      "min": 0.0,
+      "max": 7.9,
+      "emoji": "🔴",
+      "description": "Needs improvement"
+    }
+  },
+  
+  "weak_area_thresholds": {
+    "bad_shots_high": 3,
+    "good_shots_high": 5,
+    "perfect_shots_low": 3
+  },
+  
+  "practice_schedule": {
+    "default_days": 7,
+    "sessions_per_week": 3,
+    "rest_hours_minimum": 24,
+    "session_types": [
+      "diagnostic",
+      "technique_development",
+      "performance_validation"
+    ]
+  },
+  
+  "visualization": {
+    "enabled": true,
+    "dpi": 300,
+    "chart_types": [
+      "score_trends",
+      "shot_distribution",
+      "performance_pie"
+    ],
+    "colors": {
+      "bad_shots": "#ff6b6b",
+      "good_shots": "#ffd93d",
+      "perfect_shots": "#6bcf7f",
+      "excellent_line": "#2ecc71",
+      "good_line": "#f39c12",
+      "fair_line": "#e74c3c"
+    }
+  },
+  
+  "data_storage": {
+    "format": "json",
+    "default_file": "shooting_data.json",
+    "backup_enabled": true,
+    "backup_frequency": "weekly"
+  },
+  
+  "recommendations": {
+    "high_priority_exercises": [
+      {
+        "name": "Trigger Control",
+        "duration": "20 minutes",
+        "focus": "Consistency",
+        "description": "Practice smooth trigger press without disturbing aim"
+      },
+      {
+        "name": "Sight Alignment",
+        "duration": "15 minutes",
+        "focus": "Precision",
+        "description": "Work on perfect sight picture and alignment"
+      },
+      {
+        "name": "Dry Fire Practice",
+        "duration": "10 minutes",
+        "focus": "Accuracy",
+        "description": "Practice without ammunition for muscle memory"
+      }
+    ],
+    "medium_priority_exercises": [
+      {
+        "name": "Environmental Variety",
+        "duration": "30 minutes",
+        "focus": "Adaptability",
+        "description": "Practice in different conditions (indoor/outdoor, lighting, etc)"
+      },
+      {
+        "name": "Consistency Validation",
+        "duration": "20 minutes",
+        "focus": "Performance",
+        "description": "Regular sessions to validate improvements"
+      }
+    ]
+  },
+  
+  "menu_options": {
+    "1": "Add New Shooting Session",
+    "2": "View Session Statistics",
+    "3": "Generate Performance Report",
+    "4": "View Recommendations",
+    "5": "Generate Practice Schedule",
+    "6": "Create Visualizations",
+    "7": "View All Sessions",
+    "8": "Exit"
+  },
+  
+  "advanced": {
+    "enable_detailed_logging": false,
+    "max_sessions_to_analyze": 100,
+    "trend_calculation_method": "linear",
+    "generate_pdf_reports": false,
+    "email_reports": false
+  }
+}
